@@ -36,6 +36,7 @@ main {
     z-index: 100;
 }
 
+/*Style for top left logo*/
 .logo{
     font-size: 25px;
     color: var(--fontColor);
@@ -43,6 +44,7 @@ main {
     font-weight: 600;
 }
 
+/* Formatting for the nav bar*/
 .navbar a {
     font-size: 18px;
     color: var(--fontColor);
@@ -51,6 +53,7 @@ main {
     margin-left: 35px;
 }
 
+/*Hover over nav bar will show a different color*/
 .navbar a:hover {
     color: var(--purple);
 }
@@ -88,6 +91,7 @@ main {
     margin: 20px 0 40px;
 }
 
+/* Fromatting for children of the section-content class: applies to only ul, li, a children*/
 .section-content ul li a{
     font-size: 28px;
     font-weight: 700;
@@ -95,6 +99,7 @@ main {
     text-decoration: none;
 }
 
+/*Formatting for children of section-content if they are ONLY ul, li*/
 .section-content ul li {
     font-size: 28px;
     font-weight: 700;
@@ -177,11 +182,13 @@ main {
     width: 100%;
   }
 
+/*Hover over elements will change the color, acts as a visual indicator.*/
 .card:hover{
     background-color: var(--purple);
     opacity: 0.8;
 }
 
+/* Formattined profile pic*/
 .ppic {
     background-color: var(--purple);
     border: transparent;
